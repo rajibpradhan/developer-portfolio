@@ -43,4 +43,19 @@ h2{
     padding-left: 20px;
     width: 40%;
     border-radius: 10px;
+    border-left: 10px solid;
+}
+#web-developer-experience{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(45, 45, 177), rgb(97, 143, 143));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
