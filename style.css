@@ -6,10 +6,13 @@ h1{
     font-size: 50px;
     
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -32,4 +35,12 @@ section{
 .top-banner{
     background-image: url(a4-size-background-free-download-photo.jpg);
     background-repeat: no-repeat;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    width: 40%;
+    border-radius: 10px;
 }
